@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec npx tsx valami2.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Ronin021/Backend_mindenes/issues"
   },
-  "homepage": "https://github.com/Ronin021/Backend_mindenes#readme"
+  "homepage": "https://github.com/Ronin021/Backend_mindenes#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
 }
