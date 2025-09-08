@@ -53,4 +53,10 @@ export default class Kutya {
 
 
 
+    public dogs(dogs1:IKutya[]): IKutya []{
+        const dogs:IKutya[] =[]
+        dogs.push(...dogs1);
+        return dogs
+    }
+
 }

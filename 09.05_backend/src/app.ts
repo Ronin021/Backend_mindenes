@@ -1,5 +1,5 @@
 import {data} from "./data"
-import Kutya from "./kutya"
+import Kutya, { IKutya } from "./kutya"
 
 
 console.log("Na üdv!.....")
@@ -15,6 +15,9 @@ const kutya : Kutya = new Kutya(data[0])
 
 console.log(kutya.dog())
 
+const kutyak: IKutya[] = kutya.dogs(data)
+
+console.log(kutyak)
 
 
 
