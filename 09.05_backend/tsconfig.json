@@ -8,9 +8,13 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "esnext",
-    "target": "esnext",
+    "target": "esnext",  
+    "strict": true,
+
+
   },
 
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts"],
+
 
 }
