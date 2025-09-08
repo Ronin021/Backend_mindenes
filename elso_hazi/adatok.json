@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nev": "Kiss Anna",
+    "kor": 22,
+    "varos": "Budapest"
+  },
+  {
+    "id": 2,
+    "nev": "Nagy Béla",
+    "kor": 30,
+    "varos": "Debrecen"
+  },
+  {
+    "id": 3,
+    "nev": "Szabó Márton",
+    "kor": 22,
+    "varos": "Szeged"
+  },
+  {
+    "id": 4,
+    "nev": "Tóth Eszter",
+    "kor": 29,
+    "varos": "Pécs"
+  },
+  {
+    "id": 5,
+    "nev": "Varga Zoltán",
+    "kor": 41,
+    "varos": "Győr"
+  }
+]
