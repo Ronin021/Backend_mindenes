@@ -30,7 +30,7 @@
 		"declaration": true,
 
 		"pretty": true,
-		"ignoreDeprecations": "6.0"
+		
 	},
 	"include": [
 		"typings/**/*",
