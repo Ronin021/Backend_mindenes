@@ -1,19 +1,12 @@
-import express from "express";
+import express from "express"
+import router from "./router"
+import cors from "cors"
 
-const app = express();
-
-
-
+const app = express()
 app.use(express.json());
+app.use("/", router)
+
+app.use(cors({origin:'*'}))
 
 
-app.get("/api", (req, res) => {
-    req
-    res.status(200).send("Brr Brr patapim");
- console.log("hhdhdhdhd");
-});
-
-const valasz = (res:any, req:any) =>{
-
-}
 export default app;

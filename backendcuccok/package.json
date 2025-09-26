@@ -22,6 +22,8 @@
   "homepage": "https://github.com/hihi-dotcom/backendhazik2#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dom": "^0.0.3",
     "dotenv": "^17.2.2",
     "tslint": "^5.20.1",
     "tsx": "^4.20.5"
@@ -32,6 +34,7 @@
   ],
   "typings": "./lib/index.d.ts",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
